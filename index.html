@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scale=no
+    initial-scale=1.0, maximun-scalable=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/otrostilo.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak|Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b7e91b67a.js"></script>
+
+    <title>Go Fitness</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <!--encabezado del menu-->
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand"><i class="fas fa-heartbeat"></i> Go Fitness.com</a>
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#btn-colapsar">
+              <span class="sr-only">Navegacion</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!--Elementos del menu-->
+          <div class="collapse navbar-collapse" id="btn-colapsar">
+            <ul class="nav navbar-nav">
+              <li><a href="#Consejos">Consejos</a></li>
+              <li><a href="#Experiencias">Experiencias</a></li>
+              <li><a href="#Nosotros">Nosotros</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <!--Formulario de Busqueda-->
+            <form action="" class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Buscar" />
+                <button type="submit" class="btn btn-default">Buscar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main p-3 mb-2 bg-2 text-white"> 
+          <div class="container p-3 mb-2 bg-2 text-white">  
+      <!--Slideshow-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/title.jpg" width="1200"  class="my-2"  alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>Frutas como Fuente Saludable de Alimentos</h5>
+              <p >Comer más frutas y verduras</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/salud2.jpg" width="1200"   class="my-2"  alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>Hacer ejercicios</h5>
+              <p >Ejercicios como correr por lo menos media hora, ayuda a la circulacion y a llevar mejor modo de visa</p>
+            </div>
+
+          </div>
+          <div class="item">
+            <img src="img/salud1.jpg" width="1200"   class="my-2"  alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>Tomar tiempo para Relajarse</h5>
+              <p>Hacer Actividades relajantes ayudan a llevar una mejor vida.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#carouselExampleIndicators" class="left carousel-control" data-slide="prev" >
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Anterior</span>
+
+        </a>
+       <!--Controles-->
+      
+      <a href="#carouselExampleIndicators" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+      </div>
+    </div>
+
+
+      </div> 
+      
+      <!--Consejos-->
+      <div class="container p-3 mb-2  text-white bg-2" id="Consejos">
+      <div class="row">
+            <div class="col-md-12">
+                <div class="page-header text-center">
+                      <h1>Beneficios de las Actividades Fisicas Diarias</h1>
+                </div>
+            </div>            
+
+            <div class="col-xs-6 col-md-4" >
+                    <div class="thumbnail">
+                      <a href="#">
+                          <img src="img/estres.jpg" width="400"  class="my-2" alt="saludable">
+                      </a>
+                      <div class="caption">
+                            <h3>Mas tranquilidad</h3>
+                            <p>Una vida saludable te traera dias mas tranquilo sin tener que preocuparte 
+                              a diario por cosas tan comunes como el estres del trabajo entre otras cosas.</p>
+                              <p>
+                                <a href="#" class="btn btn-success"> Saber Mas..</a>
+                              </p>
+                      </div>
+                    </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                  <a href="#">
+                      <img  src="img/elimes2.jpg" width="400" height="300" alt="menos estres">
+                  </a>
+                  <div class="caption">
+                        <h3>Reduce el Estres</h3>
+                        <p>Acepta la realidad. No te estreses, ni te desgastes queriendo que las cosas sean diferentes de lo que ya son.
+                          </p>
+                          <p>
+                            <a href="#" class="btn btn-success"> Saber Mas..</a>
+                          </p>
+                  </div>
+                </div>
+        </div>
+
+        <div class="col-xs-6 col-md-4">
+            <div class="thumbnail">
+              <a href="#">
+                  <img src="img/alimen.jpg" width="400" height="300" alt="">
+              </a>
+              <div class="caption">
+                    <h3>Mejora tu Alimentacion</h3>
+                    <p>Una vida saludable te traera dias mas tranquilo sin tener que preocuparte 
+                      a diario por cosas tan comunes como el estres del trabajo entre otras cosas.</p>
+                      <p>
+                        <a href="#" class="btn btn-success"> Saber Mas..</a>
+                      </p>
+              </div>
+            </div>
+    </div>
+      </div>
+
+      <hr>
+      <!--Consejos-->
+
+
+
+      <section class="container-fluid mt-5 pt-5 consejos" id="Consejos" name="Consejos">
+        <div >
+            <div class="col-md-12 text-center mt-5 pt-5 ">
+                <h3>Consejos que te ayudaran a mantenerte en forma</h3>
+            </div>
+        </div>
+        <div class="row mt-5 pt-5">
+            <div class="col-md-3 text-center my-3 ">
+                <h5 >Vasos de agua</h5>
+                <div>
+                    <i class="fa fa-tint fa-3x icon"></i>
+                </div>
+                <div>15</div>
+            </div>
+            <div class="col-md-3 text-center my-3">
+                <h5>Horas de sueño</h5>
+                <div >
+                    <i class="fa fa-bed fa-3x icon"></i>
+                </div>
+                <div>8</div>
+            </div>
+            <div class="col-md-3 text-center my-3">
+                <h5>Hacer Ejercicios</h5>
+                <div >
+                  <i class="fas fa-running fa-3x icon"></i>
+                </div>
+                <div class="row-md-3 counter text-center contador" data-count="4">Unos Minutos</div>
+            </div>
+            <div class="col-md-3 text-center my-3">
+                <h5 >Cambia tu dieta</h5>
+                <div class="row-md-3 text-center  ">
+                  <i class="fas fa-utensils fa-3x icon"></i>
+                </div>
+                <div class="row-md-3 counter text-center contador">Las frutas son saludables</div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+          
+    </div>
+
+    </section>
+
+
+    <section class="container-fluid mt-5 pt-5 bg-2" id="Experiencias" name="Experiencias">
+      
+      <h1 >Algunas experiencias de nuestros usuarios</h1>
+      <div class="card mb-5 bg-info">
+        <img class="card-img-top img-fluid" src="img/1.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Juan Carlos Maldonado</h4>
+          <p class="card-text">Juan Carlos es el tipico hombre promedio, una esposa, 2 hijos y un trabajo estable. Sin embargo Juan Carlos, era un hombre apagado y con poca energía debido al agotamiento en su empleo. No obstante, desde que inicio nuestro programa su vida dió un giro de 180 grados. Se convirtió en un hombre más activo con más energía y con más fuerza. <b>Su secreto es su alimentación balanceada.</b></p>
+          <a class="btn btn-primary btn btn-dark bt" >Leer más</a>
+        </div>
+      </div>
+      
+      <div class="card mb-5 bg-info">
+        <img class="card-img-top img-fluid" src="img/2.jpg" width="800"  class="my-2" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Ana Inoa Matos</h4>
+          <p class="card-text">Ana Matos, nuestra chica por excelencia. Es una joven recien graduada de comunicación y con miras a continuar sus estudios en el estranjero. Ana hizó un cambio en su vida al dejar en el pasado toda la comida chatarra y las grasas saturadas que invaden los restaurantes de comida rápida que estan cerca de las universidades. Y le dió la oportunidad a la comida vegetaliana, <b>desde ese momento todo mejoró.</b></p>
+          <a class="btn btn-primary btn btn-dark bt">Leer más</a>
+        </div>
+      </div>
+      
+      <div class="card mb-5 bg-info">
+        <img  src="img/3.jpg" class="card-img-top img-fluid" width="800"  class="" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Carlos Manuel Quezada</h4>
+          <p class="card-text">Carlos Quezada es nuestro joven emprendedor. Carlos fundó su propia empresa a sus 22 años y todo ese stress y la presión que todo emprendedor tiene que soportar, lo llevaron a descuidar su estilo de vida saludable y su tiempo de entrenamiento. Actualmente su empresa ya ha crecido y ahora tiene un poco más de tiempo libre en las mañanas <b>para realizar sus ejercicios.</b></p>
+          <a class="btn btn-primary btn btn-dark bt" >Leer más</a>
+        </div>
+      </div>
+  </section> 
+    
+  <section class="container-fluid mt-5 pt-5" id="Nosotros" name="Nosotros">
+      <h1 class="text-center wow zoomIn" style="visibility: hidden; animation-name: none;"><i class="fa fa-users fa-1x"></i> ¿Quienes Somos?</h1>
+      <div class="row">
+          <div class="col-md-4 my-3 text-center wow slideInLeft" data-wow-delay=".5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+              <a><h3><i class="fa fa-align-justify fa-1x"></i> Descripción</h3></a>
+              <p>Somos una empresa enfocada en brindar soporte y asesoria a las personas para ayudarlos a llevar un estilo de vida saludable, practicar ejercicos, mantenerlos motivados y a nunca perder de vista sus metas. De igual forma brindamos el servicio de personal tainer para ayudarte a ponerte en forma. <b>Go Fitness</b></p>
+          </div>
+          <div class="col-md-4 my-3 text-center wow zoomIn" data-wow-delay="1s" style="visibility: hidden; animation-delay: 1s; animation-name: none;">
+              <a><h3><i class="fa fa-check-square-o fa-1x"></i> Misión</h3></a>
+              <p>Nuestra misión es lograr que todas las personas lleven un estilo de vida saludable. De esta forma, prevenimos muchisimas enfermedades que podemos evitar con tan solo llevar una rutina de ejercicos. Así mismo reducir los índices de obecidad infantil que son alarmantes. Y pues claro <b>HACER MÁS FELIZ A LAS PERSONAS</b></p>
+          </div>
+          <div class="col-md-4 my-3 text-center wow slideInRight" data-wow-delay="1.5s" style="visibility: hidden; animation-delay: 1.5s; animation-name: none;">
+              <a><h3><i class="fa fa-eye fa-1x"></i> Visión</h3></a>
+              <p>Llegar a ser una empresa reconocida globalmente como precursorá y fomentadorá de la salud y del ejercicio en las personas. Esta es la mejor manera de superarse a uno mismo, y ayudar a otros a lograrlo. Con un poco más de dedicación, mayor esfuerzo, más fuerza de voluntad y trabajo duro. <b>LOS RESULTADOS VAN A LLEGAR</b></p>
+          </div>
+      </div>
+      
+  </section>
+
+    
+    <!--Footer-->
+
+    <footer>
+        <section class="contacto" id="contacto">
+          <div class="container">              
+                    <h3>Contactenos</h3>
+                    <form class="formulario" action="">
+                      <input type="text" class="form-control" placeholder="Nombre" name="nombre" required>
+                      <input type="email" class="form-control" placeholder="Correo" name="correo" required >
+                      <textarea name="mensaje"  class="form-control" placeholder="Mensaje"></textarea>
+                      <input type="submit" class="boton">
+                    </form>             
+          </div>
+        </section>
+
+          <section class="redes-sociales" >
+              <div class="contenedor  container">
+                  <a href="https://www.linkedin.com/in/raffy-a-rodriguez-400552110" class="linked"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.facebook.com/RaffyAnyelo?ref=bookmarks" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://github.com/elraffy" class="github"><i class="fab fa-github"></i></a>
+                  <a href="https://www.instagram.com/im.anyelo_rod/" class="instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+              <small>&copy; Copyright 2019, Raffy Rodriguez</small>
+
+          </section>
+     
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    
+  </body>
+</html>

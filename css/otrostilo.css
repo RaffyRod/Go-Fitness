@@ -1,0 +1,180 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.thumbnail img {
+  widows: 400px;
+  height: 300px;
+}
+
+footer .contacto {
+  padding: 60px 0;
+  justify-content: center;
+  background-color: black;
+}
+footer .contacto .titulo {
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300px;
+  color: #3895ea;
+  text-align: center;
+}
+
+footer .contacto h3 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+footer .contacto .formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario input textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #a4a4a4;
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario input textarea:focus {
+  border: 2px solid red;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+footer .contacto .formulario .boton {
+  margin: auto;
+  background: #3895ea;
+  color: #ffff;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer .contacto .formulario .boton:hover {
+  background: #387bea;
+}
+
+footer .redes-sociales {
+  background: #1e2b38;
+  padding: 68px 0;
+}
+footer .contenedor {
+  display: flex;
+  justify-content: center;
+}
+footer .redes-sociales a {
+  color: #ffff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 30px;
+}
+footer .redes-sociales .linked:hover {
+  background: #0077b5;
+}
+
+footer .redes-sociales .facebook:hover {
+  background: #3b5998;
+}
+
+footer .redes-sociales .github:hover {
+  background: #6e5494;
+}
+
+footer .redes-sociales .instagram:hover {
+  background: #e1306c;
+}
+
+
+.consejos a{
+  color: #ffff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 70px;
+  background: #e1306c;
+}
+.consejos .contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center;}
+
+small{
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  color: #ffa;
+    text-shadow: 0 0 30px #fff;
+
+}
+
+.icon{
+
+color: black;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color:#fff;
+  
+}
+h1{
+ font-family:  'Oswald', sans-serif;
+ color: black;
+ text-align: center;
+ 
+
+}
+
+
+.bg-2{
+  
+      background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+  
+    }
+
+    .card{
+      margin-top: 25px;
+      margin-bottom: 10px;
+      text-align: center;
+      border-radius: 2%;
+    }
+
+    .bt{
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    
